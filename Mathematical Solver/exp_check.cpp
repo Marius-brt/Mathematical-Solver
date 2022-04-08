@@ -52,5 +52,6 @@ bool is_valid(string ex)
 			opened--;
 		}
 	}
+	if(opened > 0) return false;
 	return true;
 }
